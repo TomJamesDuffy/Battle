@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/infrastructure_spec.rb": [
+      "/Users/Raefe/Documents/Coding work/Projects/Makers_academy/Week3/battle-monsters/spec/features/infrastructure_spec.rb": [
         1,
         1,
         1,
@@ -17,6 +17,6 @@
         null
       ]
     },
-    "timestamp": 1520345269
+    "timestamp": 1520350739
   }
 }
