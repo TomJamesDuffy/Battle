@@ -2,9 +2,12 @@ require 'spec_helper'
 require 'capybara'
 require 'capybara/rspec'
 
-feature 'Testing infrastructure' do
-  scenario 'Can run app and check page content' do
+feature 'User input' do
+  scenario 'User can see input after submitting' do
     visit('/')
-    expect(page).to have_content 'Testing infrastructure working!'
+      fill_in 'Player1', with: 'Raefe'
+      fill_in 'Player2', with: 'Tom'
+      click_button 'Submit'
+    expect(page).to have_content 'Raefe vs Tom'
   end
 end
