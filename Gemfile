@@ -8,5 +8,7 @@ gem 'capybara'
 gem 'selenium-webdriver'
 gem 'rspec'
 gem 'simplecov'
+gem 'sinatra'
+gem 'shotgun'
 
 # gem "rails"
