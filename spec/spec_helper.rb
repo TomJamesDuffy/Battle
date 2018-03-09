@@ -3,6 +3,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 require_relative '../lib/my_app.rb'
+require_relative './web_helpers.rb'
 
 SimpleCov.start
 Capybara.app = Battle
