@@ -32,18 +32,39 @@
         null,
         null
       ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/player_spec.rb": [
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/game_spec.rb": [
         1,
         null,
         1,
-        5,
+        2,
+        1,
         2,
         null,
         1,
         1,
         1,
+        1,
         null,
         null,
+        null
+      ],
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/lib/game.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/player_spec.rb": [
+        1,
+        null,
+        1,
+        4,
+        1,
         null,
         1,
         1,
@@ -51,7 +72,6 @@
         null,
         null,
         null,
-        1,
         1,
         1,
         1,
@@ -67,6 +87,6 @@
         null
       ]
     },
-    "timestamp": 1520611335
+    "timestamp": 1520612091
   }
 }

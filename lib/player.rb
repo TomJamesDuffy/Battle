@@ -1,6 +1,6 @@
 class Player
 
-  DEFAULT_HITPOINTS = 60 
+  DEFAULT_HITPOINTS = 60
 
   attr_reader :hitpoints
 
@@ -9,11 +9,6 @@ class Player
   @hitpoints = hitpoints
  end
  
- def attack(player)
-   player.reduce_hitpoints
- end
-
-
  def name
    @name
  end
