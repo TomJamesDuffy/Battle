@@ -1,7 +1,17 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/hitpoints_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/attack_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/hitpoints_spec.rb": [
         null,
         1,
         1,
@@ -10,7 +20,7 @@
         null,
         null
       ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/player_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/player_spec.rb": [
         1,
         1,
         1,
@@ -23,6 +33,6 @@
         null
       ]
     },
-    "timestamp": 1520607535
+    "timestamp": 1520608681
   }
 }

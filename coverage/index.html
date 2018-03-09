@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Battle-monsters</title>
+    <title>Code coverage for Battle monsters</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.2/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-03-09T14:58:55+00:00">2018-03-09T14:58:55+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-03-09T15:18:01+00:00">2018-03-09T15:18:01+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -31,9 +31,9 @@
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>2</b> files in total.
-    <b>11</b> relevant lines. 
-    <span class="green"><b>11</b> lines covered</span> and
+    <b>3</b> files in total.
+    <b>16</b> relevant lines. 
+    <span class="green"><b>16</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -51,7 +51,17 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#6f02e36cca2790dc06664a622b0493e53ae0a79f" class="src_link" title="spec/features/hitpoints_spec.rb">spec/features/hitpoints_spec.rb</a></td>
+        <td class="strong"><a href="#1107dca09a2cefcf0256fcfa88a76a4c4927b2c6" class="src_link" title="spec/features/attack_spec.rb">spec/features/attack_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>8</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#c918221883a8e0d797841fed2e6c7dae795c7369" class="src_link" title="spec/features/hitpoints_spec.rb">spec/features/hitpoints_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>7</td>
         <td>4</td>
@@ -61,7 +71,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#bd46a1b96fe8cd40205b4d8239a60a5e93a64877" class="src_link" title="spec/features/player_spec.rb">spec/features/player_spec.rb</a></td>
+        <td class="strong"><a href="#94be04d30bfc9d4f90c61fef9e6bcf630f37c4d0" class="src_link" title="spec/features/player_spec.rb">spec/features/player_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>10</td>
         <td>7</td>
@@ -86,7 +96,74 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="6f02e36cca2790dc06664a622b0493e53ae0a79f">
+        <div class="source_table" id="1107dca09a2cefcf0256fcfa88a76a4c4927b2c6">
+  <div class="header">
+    <h3>spec/features/attack_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">feature &#39;attack&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  scenario &#39;attack player 2&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    sign_in_and_play</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_button &#39;Attack&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content &#39;Ant was attacked&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="c918221883a8e0d797841fed2e6c7dae795c7369">
   <div class="header">
     <h3>spec/features/hitpoints_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -147,7 +224,7 @@
 </div>
 
       
-        <div class="source_table" id="bd46a1b96fe8cd40205b4d8239a60a5e93a64877">
+        <div class="source_table" id="94be04d30bfc9d4f90c61fef9e6bcf630f37c4d0">
   <div class="header">
     <h3>spec/features/player_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
