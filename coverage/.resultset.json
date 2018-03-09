@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/attack_spec.rb": [
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/attack_spec.rb": [
         1,
         1,
         1,
@@ -11,7 +11,7 @@
         null,
         null
       ],
-      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/hitpoints_spec.rb": [
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/hitpoints_spec.rb": [
         null,
         1,
         1,
@@ -20,7 +20,7 @@
         null,
         null
       ],
-      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/player_spec.rb": [
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/player_spec.rb": [
         1,
         1,
         1,
@@ -29,10 +29,46 @@
         1,
         1,
         1,
+        null,
+        null
+      ],
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/player_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/lib/player.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        7,
+        7,
+        null,
+        null,
+        1,
+        11,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1520608681
+    "timestamp": 1520609417
   }
 }
