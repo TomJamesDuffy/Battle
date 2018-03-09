@@ -13,12 +13,14 @@ class Battle < Sinatra::Base
   post '/names' do
     @player1 = params[:Player_1_name]
     @player2 = params[:Player_2_name]
-    session[:message] = "#{@player1} vs #{@player2}"
+    session[:player1] = @player1
+    session[:player2] = @player2
     redirect('/play')
   end
 
   get '/play' do
-    @message = session[:message]
+    @player1 = session[:player1]
+    @player2 = session[:player2]
     erb(:play)
   end
 
