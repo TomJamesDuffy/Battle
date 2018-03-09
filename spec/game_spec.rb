@@ -1,7 +1,7 @@
 require 'game'
 
 describe Game do
-  subject(:game) { described_class.new }
+  subject(:game) { described_class.new(p, p2) }
   let(:p) { double :player }
   let(:p2) { double :player }
 
@@ -11,4 +11,16 @@ describe Game do
      game.attack(p2)
    end
  end
+
+  describe '#player 1' do
+    it 'player 1 can be observed' do
+      expect(game.player1).to eq(p)
+    end
+  end 
+
+  describe '#player 2' do
+    it 'player 2 can be observed' do
+      expect(game.player2).to eq(p2)
+    end
+  end
 end

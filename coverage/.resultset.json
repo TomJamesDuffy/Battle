@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/attack_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/attack_spec.rb": [
         1,
         1,
         1,
@@ -11,7 +11,7 @@
         null,
         null
       ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/hitpoints_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/hitpoints_spec.rb": [
         null,
         1,
         1,
@@ -20,7 +20,7 @@
         null,
         null
       ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/features/player_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/player_spec.rb": [
         1,
         1,
         1,
@@ -32,15 +32,27 @@
         null,
         null
       ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/game_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/game_spec.rb": [
         1,
         null,
         1,
-        2,
-        1,
-        2,
+        4,
+        4,
+        4,
         null,
         1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         1,
         1,
         1,
@@ -48,18 +60,7 @@
         null,
         null
       ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/lib/game.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/Users/WorkStuff/Desktop/gitDir/week3/friday_tom/battle-monsters/spec/player_spec.rb": [
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/player_spec.rb": [
         1,
         null,
         1,
@@ -87,6 +88,6 @@
         null
       ]
     },
-    "timestamp": 1520612091
+    "timestamp": 1520617307
   }
 }
