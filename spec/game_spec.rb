@@ -7,8 +7,8 @@ describe Game do
 
   describe '#attack' do
    it 'damages the player' do
-     expect(p2).to receive(:reduce_hitpoints)
-     game.attack(p2)
+     expect(p).to receive(:reduce_hitpoints)
+     game.attack
    end
  end
 
@@ -21,6 +21,13 @@ describe Game do
   describe '#player 2' do
     it 'player 2 can be observed' do
       expect(game.player2).to eq(p2)
+    end
+  end
+
+  describe '#switch' do
+    it 'turn can be switched' do
+      game.switch
+      expect(game.player1).to eq(p)
     end
   end
 end

@@ -1,7 +1,20 @@
 <p><%= "#{@game.player1.name} vs #{@game.player2.name}" %></p>
-<p><%= "#{@game.player2.name} #{@game.player2.hitpoints}/60hp" %></p>
 
 
-<form action='/attack'>
-<input type='submit' value='Attack'>
-</form>
+<% if @game.player2.hitpoints <= 0 %>
+  <p>  <%= @game.player1.name %> has won the game! </p>
+<% elsif @game.player1.hitpoints <= 0 %>
+  <p> <%= @game.player2.name %> has won the game! </p>
+<% else %>
+  <p> <%= @game.player2.name%> <%=@game.player2.hitpoints%>/60hp </p>
+  <p> <%= @game.player1.name%> <%=@game.player1.hitpoints%>/60hp </p>
+  <p> <%= @game.current_player.name %>'s turn to attack </p>
+
+  <form action='/attack'>
+    <input type='submit' value='Attack'>
+  </form>
+
+<% end %>
+
+
+

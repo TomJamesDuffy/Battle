@@ -32,13 +32,24 @@
         null,
         null
       ],
+      "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/features/switch_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/thomasduffy/Documents/Programming/Learning/Makers Academy/Projects/battle_monsters/spec/game_spec.rb": [
         1,
         null,
         1,
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         null,
         1,
         1,
@@ -53,6 +64,13 @@
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
         1,
         1,
         1,
@@ -88,6 +106,6 @@
         null
       ]
     },
-    "timestamp": 1520617588
+    "timestamp": 1520623835
   }
 }

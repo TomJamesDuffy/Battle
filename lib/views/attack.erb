@@ -1,5 +1,5 @@
-<p><%= "#{@game.player2.name} was attacked" %></p>
+<p><%= "#{@game.current_player.name} attacked!" %></p>
 
-<form action='/play'>
+<form action='/play' method='post'>
 <input type='submit' value='Ok'>
 </form>
